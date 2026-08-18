@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+streamlit-drawable-canvas = "*"
+tensorflow-cpu = "*"
+tensorflow-datasets = "*"
+numpy = "*"
+pillow = "*"
+scipy = "*"
+importlib-resources = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
